@@ -2,7 +2,7 @@
 
 1. React component: output ul tags around list items only when there are items in the array.
 
-```JavaScript
+```jsx
 import React from "react"
 
 const sportsArray = ["Tennis", "Football", "Basketball", "Swimming", "Chess"]
@@ -22,7 +22,6 @@ const SportsList = () => {
 }
 
 export default SportsList
-
 ```
 
 Source: [Stack Overflow question - Output ul tags conditionally in JSX?](https://stackoverflow.com/questions/71704452/output-ul-tags-conditionally-in-jsx/71704495?noredirect=1#comment126724402_71704495), answered by [Praveen Kumar Purushothaman](https://stackoverflow.com/users/462627/praveen-kumar-purushothaman)
