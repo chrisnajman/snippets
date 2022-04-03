@@ -54,13 +54,13 @@ If we want the section to have a label independent of any or no `id` on the head
 </section>
 ```
 
-Following either of the two techniques will allow assistive technologies to navigate towards these labelled sections (which will be presented to the user as a <a id="list">**list of regions**</a>).
+Following either of the two techniques will allow assistive technologies to navigate towards these labelled sections (which will be presented to the user as a _list of regions_).
 
 #### Notes:
 
 1. In example a) the section will be identified with the value of the heading element: "Section 1".
 2. In example b) the section will be identified with the value of `aria-label`: "Section 2".
-3. If the content of the `<section>` is not sufficiently important to be included in a [**list of regions**](#list), a simple `<div>` element should be used instead.
+3. If the content of the `<section>` is not sufficiently important to be included in a _list of regions_, a simple `<div>` element should be used instead.
 
 Source: [Kevin Powell, YouTube - HTML section elements are a lie (sort of)](https://youtu.be/ULdkpU51hTQ).
 
