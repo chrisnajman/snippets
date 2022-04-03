@@ -31,8 +31,6 @@ Source: [Stack Overflow question - Output ul tags conditionally in JSX?](https:/
 ## HTML: Adding semantic meaning to the `<section>` element.
 
 The `<section>` element on its own carries no semantic meaning. For it to have one, either `aria-labelledby` or `aria-label` is required:
-<br />
-<br />
 
 ### a) `aria-labelledby`
 
